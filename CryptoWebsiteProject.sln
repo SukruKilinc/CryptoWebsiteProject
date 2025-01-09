@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWebsiteProject.EntityLayer", "CryptoWebsiteProject.EntityLayer\CryptoWebsiteProject.EntityLayer.csproj", "{42F04E59-2A6C-42EC-A28A-D2D5AD16D279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWebsiteProject.DataAccessLayer", "CryptoWebsiteProject.DataAccessLayer\CryptoWebsiteProject.DataAccessLayer.csproj", "{18C3B14A-29AF-4EF7-969B-2A7D458A986E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWebsiteProject.BusinessLayer", "CryptoWebsiteProject.BusinessLayer\CryptoWebsiteProject.BusinessLayer.csproj", "{BEB1D2F2-19DD-49FA-84FD-F97D9CE9ACAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWebsiteProject.DtoLayer", "CryptoWebsiteProject.DtoLayer\CryptoWebsiteProject.DtoLayer.csproj", "{7F4B7B10-3EE9-4498-AD4B-28761A505F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWebsiteProject.PresentationLayer", "CryptoWebsiteProject.PresentationLayer\CryptoWebsiteProject.PresentationLayer.csproj", "{EBF5B482-F954-4D4E-909B-467E13FF5699}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F04E59-2A6C-42EC-A28A-D2D5AD16D279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F04E59-2A6C-42EC-A28A-D2D5AD16D279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F04E59-2A6C-42EC-A28A-D2D5AD16D279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F04E59-2A6C-42EC-A28A-D2D5AD16D279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C3B14A-29AF-4EF7-969B-2A7D458A986E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C3B14A-29AF-4EF7-969B-2A7D458A986E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C3B14A-29AF-4EF7-969B-2A7D458A986E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C3B14A-29AF-4EF7-969B-2A7D458A986E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB1D2F2-19DD-49FA-84FD-F97D9CE9ACAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB1D2F2-19DD-49FA-84FD-F97D9CE9ACAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB1D2F2-19DD-49FA-84FD-F97D9CE9ACAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB1D2F2-19DD-49FA-84FD-F97D9CE9ACAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4B7B10-3EE9-4498-AD4B-28761A505F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4B7B10-3EE9-4498-AD4B-28761A505F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4B7B10-3EE9-4498-AD4B-28761A505F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4B7B10-3EE9-4498-AD4B-28761A505F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF5B482-F954-4D4E-909B-467E13FF5699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF5B482-F954-4D4E-909B-467E13FF5699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF5B482-F954-4D4E-909B-467E13FF5699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF5B482-F954-4D4E-909B-467E13FF5699}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
