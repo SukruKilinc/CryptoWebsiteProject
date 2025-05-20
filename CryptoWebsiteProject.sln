@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWebsiteProject.EntityLayer", "CryptoWebsiteProject.EntityLayer\CryptoWebsiteProject.EntityLayer.csproj", "{2550E88E-5F1C-4666-878A-3E6A7DAEE7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWebsiteProject.DataAccessLayer", "CryptoWebsiteProject.DataAccessLayer\CryptoWebsiteProject.DataAccessLayer.csproj", "{D8C623BF-F778-4D11-BA23-F12261F0F6C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWebsiteProject.DtoLayer", "CryptoWebsiteProject.DtoLayer\CryptoWebsiteProject.DtoLayer.csproj", "{EDC3DA64-B097-4E90-BB79-E2B664E4F368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWebsiteProject.BusinessLayer", "CryptoWebsiteProject.BusinessLayer\CryptoWebsiteProject.BusinessLayer.csproj", "{0DBBBF1B-51FC-408D-8ED0-4172A670F35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWebsiteProject.PresentationLayer", "CryptoWebsiteProject.PresentationLayer\CryptoWebsiteProject.PresentationLayer.csproj", "{ADEBD03F-D0C8-459A-9FA4-5469A98BA3B1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2550E88E-5F1C-4666-878A-3E6A7DAEE7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2550E88E-5F1C-4666-878A-3E6A7DAEE7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2550E88E-5F1C-4666-878A-3E6A7DAEE7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2550E88E-5F1C-4666-878A-3E6A7DAEE7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C623BF-F778-4D11-BA23-F12261F0F6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C623BF-F778-4D11-BA23-F12261F0F6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C623BF-F778-4D11-BA23-F12261F0F6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C623BF-F778-4D11-BA23-F12261F0F6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC3DA64-B097-4E90-BB79-E2B664E4F368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC3DA64-B097-4E90-BB79-E2B664E4F368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC3DA64-B097-4E90-BB79-E2B664E4F368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC3DA64-B097-4E90-BB79-E2B664E4F368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBBBF1B-51FC-408D-8ED0-4172A670F35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBBBF1B-51FC-408D-8ED0-4172A670F35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBBBF1B-51FC-408D-8ED0-4172A670F35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBBBF1B-51FC-408D-8ED0-4172A670F35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEBD03F-D0C8-459A-9FA4-5469A98BA3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEBD03F-D0C8-459A-9FA4-5469A98BA3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEBD03F-D0C8-459A-9FA4-5469A98BA3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEBD03F-D0C8-459A-9FA4-5469A98BA3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
